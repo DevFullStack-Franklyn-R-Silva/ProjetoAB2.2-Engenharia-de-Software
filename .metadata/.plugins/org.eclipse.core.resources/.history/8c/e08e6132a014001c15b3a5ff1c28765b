@@ -1,0 +1,27 @@
+package testes;
+
+
+import java.util.ArrayList;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+public class Teste {
+
+	private static final byte TIPO_MEDIA_ARITMETICA = 0;
+	//Boletim media = new Boletim();
+	
+
+	
+	 public static void main(String[] args) {
+		Boletim media = new Boletim();
+		media.setTipoMedia(TIPO_MEDIA_ARITMETICA);
+		ArrayList<Float> notas = new ArrayList<>();
+		float[] nota = {8.2f,7.8f,10.0f,9.5f,6.7f};
+		int[] peso = {5,5,5,5,5};
+		
+		System.out.println(media.calculaMedia(nota, peso));
+
+		
+	 }
+}
