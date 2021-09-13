@@ -1,0 +1,10 @@
+package testes;
+
+public abstract class tessss {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
